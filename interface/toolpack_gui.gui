@@ -3,14 +3,14 @@ guiTypes = {
 	containerWindowType = {
 
 		name = "toolpack_open_container"
-		position = { x = -21 y = -259 }
-		orientation = LOWER_RIGHT
-		origo = lower_right
+		position = { x = 0 y = -600 }
+		orientation = LOWER_LEFT
+		origo = lower_left
 
 		buttonType = {
 			name = "toolpack_open"
 			quadTextureSprite = "GFX_toolpack_expand_left"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -10000 }
 			shortcut = "ctrl+t"
 			pdx_tooltip = "[toolpack_OPENING]"
 			clicksound = click_ok
@@ -19,7 +19,7 @@ guiTypes = {
 		buttonType = {
 			name = "toolpack_close_at_right"
 			quadTextureSprite = "GFX_toolpack_expand_right"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -1000 }
 			shortcut = "ctrl+t"
 			pdx_tooltip = "[toolpack_CLOSING]"
 			clicksound = click_ok
@@ -56,24 +56,6 @@ guiTypes = {
 		background = {
 			name = "Background"
 			spriteType = "GFX_toolpack_bg"
-		}
-		buttonType = {
-			name = "toolpack_close"
-			quadTextureSprite = "GFX_toolpack_expand_right"
-			position = { x = 0 y = 0 }
-			shortcut = "ctrl+t"
-			pdx_tooltip = "[toolpack_OPENING]"
-			clicksound = click_ok
-			oversound = ui_menu_over
-		}
-		buttonType = {
-			name = "toolpack_close_at_right"
-			quadTextureSprite = "GFX_toolpack_expand_right"
-			position = { x = 229 y = 329 }
-			shortcut = "ctrl+t"
-			pdx_tooltip = "[toolpack_OPENING]"
-			clicksound = click_ok
-			oversound = ui_menu_over
 		}
 		buttonType = {
 			name = "toolpack_prev_page"
