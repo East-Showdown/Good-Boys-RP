@@ -13,7 +13,7 @@
  WAR_TAKE_CLAIM_NAME_HUN_CZE:0 "$ORDER$$FIRST$ Завоевание $STATE$"
  WAR_TAKE_CORE_NAME_HUN_CZE:0 "$ORDER$$FIRST$ Повторное завоевание $STATE$"
  WAR_NAME_SWE_DEN:0 "Война северного сияния"
- WAR_NAME_SWE_NOR:0 Война северного сияния"
+ WAR_NAME_SWE_NOR:0 "Война северного сияния"
  WAR_NAME_DEN_SWE:0 "Война северного сияния"
  WAR_NAME_DEN_NOR:0 "Война северного сияния"
  WAR_NAME_NOR_SWE:0 "Война северного сияния"
