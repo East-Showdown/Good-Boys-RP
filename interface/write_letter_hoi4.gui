@@ -596,7 +596,7 @@ guiTypes = {
 			name = "button_comma"
 			position = { x = -1000 y = -1000 }
 			spriteType = "GFX_mini_close_button"
-			shortcut = ","
+			shortcut = "ctrl+,"
 		}
 		buttonType = {
 			name = "button_questionmark"
@@ -614,7 +614,7 @@ guiTypes = {
 			name = "button_dot"
 			position = { x = -1000 y = -1000 }
 			spriteType = "GFX_mini_close_button"
-			shortcut = "."
+			shortcut = "ctrl+."
 		}
 		buttonType = {
 			name = "button_quotationmark"
@@ -644,7 +644,91 @@ guiTypes = {
 			name = "button_delete"
 			position = { x = -1000 y = -1000 }
 			spriteType = "GFX_mini_close_button"
-			shortcut = "DEL"
+			shortcut = "BACKSPACE"
+		}
+		buttonType = {
+			name = "button_tilda"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "`"
+		}
+		buttonType = {
+			name = "button_tilda_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+`"
+		}
+		buttonType = {
+			name = "button_ru_b"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = ","
+		}
+		buttonType = {
+			name = "button_ru_b_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+,"
+		}
+		buttonType = {
+			name = "button_ru_yu"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "."
+		}
+		buttonType = {
+			name = "button_ru_yu_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+."
+		}
+		buttonType = {
+			name = "button_ru_x"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "["
+		}
+		buttonType = {
+			name = "button_ru_x_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+["
+		}
+		buttonType = {
+			name = "button_ru_solid_mark"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "]"
+		}
+		buttonType = {
+			name = "button_ru_solid_mark_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+]"
+		}
+		buttonType = {
+			name = "button_ru_zhe"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = ";"
+		}
+		buttonType = {
+			name = "button_ru_zhe_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+;"
+		}
+		buttonType = {
+			name = "button_ru_ye"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "'"
+		}
+		buttonType = {
+			name = "button_ru_ye_capital"
+			position = { x = -1000 y = -1000 }
+			spriteType = "GFX_mini_close_button"
+			shortcut = "shift+'"
 		}
 	}
 	
