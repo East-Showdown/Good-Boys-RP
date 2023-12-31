@@ -1806,6 +1806,48 @@ scripted_gui = {
 			button_bracketclose_click = {
 				add_to_array = { written_type_of_insult_array = 36 }
 			}
+			button_tilda_click = {
+				add_to_array = { written_type_of_insult_array = 37 }
+			}
+			button_tilda_capital_click = {
+				add_to_array = { written_type_of_insult_array = 37.5 }
+			}
+			button_ru_b_click = {
+				add_to_array = { written_type_of_insult_array = 38 }
+			}
+			button_ru_b_capital_click = {
+				add_to_array = { written_type_of_insult_array = 38.5 }
+			}
+			button_ru_yu_click = {
+				add_to_array = { written_type_of_insult_array = 39 }
+			}
+			button_ru_yu_capital_click = {
+				add_to_array = { written_type_of_insult_array = 39.5 }
+			}
+			button_ru_x_click = {
+				add_to_array = { written_type_of_insult_array = 40 }
+			}
+			button_ru_x_capital_click = {
+				add_to_array = { written_type_of_insult_array = 40.5 }
+			}
+			button_ru_solid_mark_click = {
+				add_to_array = { written_type_of_insult_array = 41 }
+			}
+			button_ru_solid_mark_capital_click = {
+				add_to_array = { written_type_of_insult_array = 41.5 }
+			}
+			button_ru_zhe_click = {
+				add_to_array = { written_type_of_insult_array = 42 }
+			}
+			button_ru_zhe_capital_click = {
+				add_to_array = { written_type_of_insult_array = 42.5 }
+			}
+			button_ru_ye_click = {
+				add_to_array = { written_type_of_insult_array = 43 }
+			}
+			button_ru_ye_capital_click = {
+				add_to_array = { written_type_of_insult_array = 43.5 }
+			}
 			button_delete_click = {
 				set_temp_variable = { temp = written_type_of_insult_array^num }
 				subtract_from_temp_variable = { temp = 1 }
@@ -2067,6 +2109,48 @@ scripted_gui = {
 				check_variable = { show_write_insult_menu > 0 }
 			}
 			button_bracketclose_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_tilda_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_tilda_capital_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_b_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_b_capital_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_yu_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_yu_capital_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_x_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_x_capital_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_solid_mark_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_solid_mark_capital_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_zhe_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_zhe_capital_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_ye_visible = {
+				check_variable = { show_write_insult_menu > 0 }
+			}
+			button_ru_ye_capital_visible = {
 				check_variable = { show_write_insult_menu > 0 }
 			}
 			button_delete_visible = {

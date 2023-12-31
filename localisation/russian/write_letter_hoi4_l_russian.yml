@@ -7,7 +7,7 @@
   
  INSULT_EXPANDED_POPUP_SENDER_TITLE: "Письмо" #NT!
  INSULT_EXPANDED_POPUP_SENDER_SHORT_DESC: "Отправьте дипломатическое письмо государству §Y[?selected_country_to_insult.GetNameWithFlag]§!." #NT!
-  INSULT_EXPANDED_POPUP_SENDER_DESC: "Вы хотите отправить следующее письмо государству §Y[?selected_country_to_insult.GetNameWithFlag]§!? \n\n§Y 
+ INSULT_EXPANDED_POPUP_SENDER_DESC: "Вы хотите отправить следующее письмо государству §Y[?selected_country_to_insult.GetNameWithFlag]§!? \n\n§Y 
  INSULT_EXPANDED_POPUP_SENDER_ENTRY: "§H[This.GetRandomizedInsultEntry]§!" #NT!
  RANDOMIZE_INSULT_BUTTON_TT: "§GЩёлкните§! чтобы выбрать другое случайное оскорбление. \n§GЩёлкните ПКМ§! чтобы открыть или закрыть список всех действительных оскорблений, которые можно рандомизировать." #NT!
   
@@ -21,7 +21,7 @@
  RECEIVED_INSULT_OK_BUTTON_TT: "§Y[This.GetNameWithFlag]§! отправил нам письмо." #NT!
   
   
- INSULT_BACK: "Ответно Письмо" #NT!
+ INSULT_BACK: "Ответное Письмо" #NT!
  INSULT_BACK_TT: "Отправить письмо в ответ. [This.GetSendInsultConditionsTooltip]" #NT!
   
  ROOT_COULD_INSULT_TARGET_NORMALLY_TOO: "Мы можем отправить письмо в эту страну" #NT!
@@ -29,7 +29,7 @@
  WRITTEN_INSULT_ENTRY: "§Y[This.GetInsultTypedCharacter]§!" #NT!
   
  WRITE_INSULT_BUTTON_TT: "§GЩёлкните§! чтобы войти или выйти из режима написания собственного письма. \n§GЩёлкните ПКМ§! чтобы очистить сохраненную в данный момент букву." #NT!
- WRITE_INSULT_BUTTON_TT_DELAYED: "§RОбратите внимание, что слова разделены неправильно: каждая строка может содержать 46 символов. Если вы хотите предотвратить некрасивое разделение слов, используйте минусы вручную или используйте достаточно пробелов для перехода к следующей строке. §!\n§HДопускаются только буквы от А до Я, цифры и несколько специальных символов. §! \nВы можете вводить буквы обычным и удалите последний символ, нажав £DEL£. \n\nМожно использовать следующие специальные символы, горячая клавиша для их ввода указана в скобках позади них: \n§YМинус§! (§G-§!) \n(§GПро бел§!) (§G §!) \n§YЗапятая§! (§G ,§!) \n§!\n§1Знак вопроса§! (§GCtrl + Q§!) \n§!\n§1Апостроф§! (§GShift + ^§!) \n§!\n§1Точка§! (§G.§!) \n§!\n§1Кавычки§! (§GShift + 2§!) \n§!\n§1Восклицательный Знак§! (§GShift + 1§!) \n§!\n§1Открытая круглая скобка§! (§GShift + 8§!) \n§!\n§1Закрытая круглая скобка§! (§GShift + 9§!)" #NT!
+ WRITE_INSULT_BUTTON_TT_DELAYED: "§RОбратите внимание, что слова разделены неправильно: каждая строка может содержать 46 символов. Если вы хотите предотвратить некрасивое разделение слов, используйте минусы вручную или используйте достаточно пробелов для перехода к следующей строке. §!\n§HДопускаются только буквы от А до Я, цифры и несколько специальных символов. §! \nВы можете вводить буквы обычным и удалите последний символ, нажав BACKSPACE. \n\nМожно использовать следующие специальные символы, горячая клавиша для их ввода указана в скобках позади них: \n§YМинус§! (§G-§!) \n(§GПробел§!) (§G §!) \n§YТочка§! (§GCtrl + .§!)\n§YЗапятая§! (§GCtrl + ,§!) \n§!\n§1Знак вопроса§! (§GCtrl + Q§!) \n§!\n§1Апостроф§! (§GShift + ^§!) \n§!\n§1Точка§! (§G.§!) \n§!\n§1Кавычки§! (§GShift + 2§!) \n§!\n§1Восклицательный Знак§! (§GShift + 1§!) \n§!\n§1Открытая круглая скобка§! (§GShift + 8§!) \n§!\n§1Закрытая круглая скобка§! (§GShift + 9§!)" #NT!
   
  SAVE_INSULT_BUTTON_TT: "§GЩёлкните§! чтобы открыть или закрыть окно §Yсохранения§! и §Yзагрузки§! печатки оскорбления." #NT!
   
@@ -51,8 +51,6 @@
  string_cannot_send_insult_because_no_or_too_short_insult: "\n\n§RВы должны выбрать оскорбление или ввести букву хотя бы с §Y3§! персонажи.§W" #NT!
  string_cannot_send_insult_because_we_recently_insulted_them: "\n\n§RНедавно мы отправили им письмо. Мы можем писать письма в страну только каждые 6 месяцев.§W" #NT!
   
- string_quotation_mark: "None" #NT!
-  
  string_create_new_insult_save: "Создать новое сохранение" #NT!
  string_replace_insult_save: "Ячейка сохранения [?i]" #NT!
  string_create_new_insult_save_tt: "§GЩёлкните§! чтобы создать §Yновое сохранение§!, в котором будет сохранено введенное вами в данный момент оскорбление." #NT!
@@ -71,4 +69,92 @@
   
   # Opinions: 
  insult_expanded_opinion: "Отправлено встречное письмо" #NT!
+ #LocKeys
+ WL_zero: "0"
+ WL_one: "1"
+ WL_two: "2"
+ WL_three: "3"
+ WL_four: "4"
+ WL_five: "5"
+ WL_six: "6"
+ WL_seven: "7"
+ WL_eight: "8"
+ WL_nine: "9"
+ WL_a_low_reg: "ф"
+ WL_a_up_reg: "Ф"
+ WL_b_low_reg: "и"
+ WL_b_up_reg: "И"
+ WL_c_low_reg: "с"
+ WL_c_up_reg: "С"
+ WL_d_low_reg: "в"
+ WL_d_up_reg: "В"
+ WL_e_low_reg: "у"
+ WL_e_up_reg: "У"
+ WL_f_low_reg: "а"
+ WL_f_up_reg: "А"
+ WL_g_low_reg: "п"
+ WL_g_up_reg: "П"
+ WL_h_low_reg: "р"
+ WL_h_up_reg: "Р"
+ WL_i_low_reg: "ш"
+ WL_i_up_reg: "Ш"
+ WL_j_low_reg: "о"
+ WL_j_up_reg: "О"
+ WL_k_low_reg: "л"
+ WL_k_up_reg: "Л"
+ WL_l_low_reg: "д"
+ WL_l_up_reg: "Д"
+ WL_m_low_reg: "ь"
+ WL_m_up_reg: "Ь"
+ WL_n_low_reg: "т"
+ WL_n_up_reg: "Т"
+ WL_o_low_reg: "щ"
+ WL_o_up_reg: "Щ"
+ WL_p_low_reg: "з"
+ WL_p_up_reg: "З"
+ WL_q_low_reg: "й"
+ WL_q_up_reg: "Й"
+ WL_r_low_reg: "к"
+ WL_r_up_reg: "К"
+ WL_s_low_reg: "ы"
+ WL_s_up_reg: "Ы"
+ WL_t_low_reg: "е"
+ WL_t_up_reg: "Е"
+ WL_u_low_reg: "г"
+ WL_u_up_reg: "Г"
+ WL_v_low_reg: "м"
+ WL_v_up_reg: "М"
+ WL_w_low_reg: "ц"
+ WL_w_up_reg: "Ц"
+ WL_x_low_reg: "ч"
+ WL_x_up_reg: "Ч"
+ WL_y_low_reg: "н"
+ WL_y_up_reg: "Н"
+ WL_z_low_reg: "я"
+ WL_z_up_reg: "Я"
+ WL_minus: "-"
+ WL_space: " "
+ WL_comma: ","
+ WL_question_mark: "?"
+ WL_apostrophe: "'"
+ WL_dot: "."
+ WL_quotation_mark: "\""
+ WL_exclamation_mark: "!"
+ WL_bracket_open: "("
+ WL_bracket_close: ")"
+ WL_tilda_low_reg: "ё"
+ WL_tilda_up_reg: "Ё"
+ #ru
+ WL_ru_b_low_reg: "б"
+ WL_ru_b_up_reg: "Б"
+ WL_ru_yu_low_reg: "ю"
+ WL_ru_yu_up_reg: "Ю"
+ WL_ru_x_low_reg: "х"
+ WL_ru_x_up_reg: "Х"
+ WL_ru_solid_mark_low_reg: "ъ"
+ WL_ru_solid_mark_up_reg: "Ъ"
+ WL_ru_zhe_low_reg: "ж"
+ WL_ru_zhe_up_reg: "Ж"
+ WL_ru_ye_low_reg: "э"
+ WL_ru_ye_up_reg: "Э"
   
