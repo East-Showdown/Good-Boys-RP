@@ -31,7 +31,7 @@ scripted_gui = {
 			ROOT = {
 				OR = {
 					has_variable = show_insults_expanded_diplo_actions
-					is_ai = yes
+					is_ai = no
 				}
 			}
 		}
@@ -88,102 +88,17 @@ scripted_gui = {
 		ai_test_variance = 0.1
 		
 		ai_check = {
-			is_subject = no
-			has_war = no
-			NOT = { has_idea = neutrality_idea }
-			any_neighbor_country = {
-				is_subject = no
-				NOT = { is_in_faction_with = ROOT }
-				NOT = { has_war_with = ROOT }
-				OR = {
-					NOT = { has_country_flag = recently_insulted_by_@ROOT }
-					has_country_flag = {
-						flag = recently_insulted_by_@ROOT
-						days > 2
-					}
-				}
-				OR = {
-					AND = {
-						NOT = { has_government = ROOT }
-						NOT = { has_government = neutrality }
-						NOT = { has_wargoal_against = ROOT }
-					}
-					is_justifying_wargoal_against = ROOT
-				}
-				ROOT = {
-					has_opinion = {
-						target = PREV
-						value < -20
-					}
-					OR = {
-						NOT = { has_government = neutrality }
-						AND = {
-							has_country_flag = recently_insulted_by_@PREV
-							has_country_flag = {
-								flag = recently_insulted_by_@PREV
-								days < 2
-							}
-						}
-					}
-				}
-			}
+			always = no
 		}
 		
 		ai_test_scopes = test_neighbouring_countries
 		
 		ai_check_scope = {
-			is_subject = no
-			NOT = { is_in_faction_with = ROOT }
-			NOT = { has_war_with = ROOT }
-			OR = {
-				NOT = { has_country_flag = recently_insulted_by_@ROOT }
-				has_country_flag = {
-					flag = recently_insulted_by_@ROOT
-					days > 2
-				}
-			}
-			OR = {
-				AND = {
-					NOT = { has_government = ROOT }
-					NOT = { has_government = neutrality }
-					NOT = { has_wargoal_against = ROOT }
-				}
-				is_justifying_wargoal_against = ROOT
-			}
-			ROOT = {
-				has_opinion = {
-					target = PREV
-					value < -20
-				}
-				OR = {
-					NOT = { has_government = neutrality }
-					AND = {
-						has_country_flag = recently_insulted_by_@PREV
-						has_country_flag = {
-							flag = recently_insulted_by_@PREV
-							days < 2
-						}
-					}
-				}
-			}
+			always = no
 		}
 		
 		ai_weights = {
-			send_insult_diplo_action_button_click = {
-				ai_will_do = {
-					factor = 1
-				}
-			}
-			send_insult_diplo_action_selected_button_click = {
-				ai_will_do = {
-					factor = 0
-				}
-			}
-			close_button_click = {
-				ai_will_do = {
-					factor = 0
-				}
-			}
+			always = no
 		}
 	}
 	
@@ -2167,20 +2082,20 @@ scripted_gui = {
 		}
 		
 		ai_enabled = {
-			always = yes
+			always = no
 		}
 		
 		ai_test_interval = 24
 		ai_test_variance = 0.2
 		
 		ai_check = {
-			always = yes
+			always = no
 		}
 		
 		ai_weights = {
 			send_button_click = {
 				ai_will_do = {
-					factor = 1
+					factor = 0
 					modifier = {
 						var:selected_country_to_insult = {
 							OR = {
@@ -2220,7 +2135,7 @@ scripted_gui = {
 								}
 							}
 						}
-						add = 100
+						add = 0
 					}
 				}
 			}
@@ -2485,7 +2400,7 @@ scripted_gui = {
 					}
 					ok_button_click = {
 						ai_will_do = {
-							factor = 1
+							factor = 0
 						}
 					}
 				}
@@ -2497,14 +2412,14 @@ scripted_gui = {
 		}
 		
 		ai_enabled = {
-			always = yes
+			always = no
 		}
 		
 		ai_test_interval = 24
 		ai_test_variance = 0.2
 		
 		ai_check = {
-			always = yes
+			always = no
 		}
 	}
 }
