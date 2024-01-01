@@ -31,7 +31,7 @@ scripted_gui = {
 			ROOT = {
 				OR = {
 					has_variable = show_insults_expanded_diplo_actions
-					is_ai = yes
+					is_ai = no
 				}
 			}
 		}
