@@ -168,6 +168,7 @@ guiTypes = {
 		buttonType = {
 			name = "cancel_button"
 			position = { x = 30 y = 473 }
+			shortcut = "ESCAPE"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonFont = "hoi_16mbs"
 			buttonText = "DIPLOMACY_CANCEL"
@@ -178,6 +179,7 @@ guiTypes = {
 		buttonType = {
 			name = "send_button"
 			position = { x = 374 y = 473 }
+			shortcut = "RETURN"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonFont = "hoi_16mbs"
 			buttonText = "DIPLOMACY_SEND"
