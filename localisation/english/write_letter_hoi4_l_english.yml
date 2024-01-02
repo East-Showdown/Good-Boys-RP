@@ -45,7 +45,6 @@
  
  # Scripted Localisation:
  string_cannot_send_insult_because_players_did_not_vote_yet: "\n\n§RThe survey between the players has not finished yet. As soon as the result is known, we can send a letter.§W"
- string_cannot_send_insult_because_we_recently_insulted_someone: "\n\n§RWe cannot send letter another country within the next §Y[?Root.last_insult_sent_this_amount_of_days_ago]§! days.§W"
  string_cannot_send_insult_to_ally: "\n\n§RWe cannot send an letter to members of our faction.§W"
  string_cannot_send_insult_to_enemy: "\n\n§RWe cannot send an letter to §Y[This.GetNameWithFlag]§!, because we already are at war with each other.§W"
  string_cannot_send_insult_because_no_or_too_short_insult: "\n\n§RYou must select an insult or type a letter with at least §Y3§! characters.§W"

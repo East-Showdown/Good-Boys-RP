@@ -197,14 +197,6 @@ guiTypes = {
 		}
 		
 		buttonType = {
-			name = "save_insult_button"
-			position = { x = 295 y = 474 }
-			spriteType = "GFX_NV_btn_save_task_force_composition_template"
-			pdx_tooltip = "SAVE_INSULT_BUTTON_TT"
-			clicksound = menu_open_window
-		}
-		
-		buttonType = {
 			name = "button_0"
 			position = { x = -1000 y = -1000 }
 			spriteType = "GFX_mini_close_button"
@@ -764,33 +756,6 @@ guiTypes = {
 		}
 	}
 	
-	containerWindowType = {
-		name = "saved_insults_entry"
-		position = { x = 0 y = 0 }	
-		size = { width = 250 height = 25 }
-		
-		buttonType = {
-			name = "insult_save_button"
-			spriteType = "GFX_tiling_sort_button"
-			frame = 1
-			size = { x = 216 y = 25 }
-			position = { x = 11 y = 0 }
-			pdx_tooltip = "INSULT_SAVE_BUTTON_TT"
-			pdx_tooltip_delayed = "INSULT_SAVE_BUTTON_TT_DELAYED"
-		}
-		
-		instantTextBoxType = {
-			name = "button_text"
-			position = { x = 18 y = 2 }
-			font = "hoi_18mbs"
-			format = center
-			text = "INSULT_SAVE_BUTTON"
-			maxWidth = 200
-			maxHeight = 10
-			fixedsize = yes
-			alwaystransparent = yes
-		}
-	}
 	
 	containerWindowType = {
 		name = "insults_expanded_insults_list_window"
