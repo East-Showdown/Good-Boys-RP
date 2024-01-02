@@ -494,11 +494,7 @@ scripted_gui = {
 						}
 					}
 				}
-			}
-			randomize_insult_button_click_enabled = {
-				NOT = { has_country_flag = currently_randomizing_insult }
-				check_variable = { show_write_insult_menu < 1 }
-			}
+			}	
 			write_insult_button_right_click_enabled = {
 				check_variable = { show_write_insult_menu > 0 }
 			}
@@ -772,39 +768,6 @@ scripted_gui = {
 				entry_container = insult_entry_gridbox_entry
 			}
 		}
-		
-		ai_enabled = {
-			always = yes
-		}
-		
-		ai_test_interval = 24
-		ai_test_variance = 0.2
-
-	
-	insults_expanded_insults_list_window = {
-		context_type = player_context
-		
-		window_name = "insults_expanded_insults_list_window"
-		parent_window_name = "insults_expanded_popup_sender"
-		
-		visible = {
-			check_variable = { show_insuls_list_window > 0 }
-		}
-		
-		effects = {
-			use_insult_button_click = {
-				set_variable = { chosen_type_of_insult = v }
-				clear_variable = show_insuls_list_window
-				clear_array = valid_insults_list_array
-			}
-		}
-		
-		dynamic_lists = {
-			insults_list_gridbox = {
-				array = valid_insults_list_array
-				entry_container = insults_list_entry
-			}
-		}
 	}
 	
 	insults_expanded_popup_receiver = {
@@ -879,17 +842,6 @@ scripted_gui = {
 				array = ROOT.received_written_type_of_insult_array_@THIS
 				entry_container = insult_entry_gridbox_entry
 			}
-		}
-		
-		ai_enabled = {
-			always = yes
-		}
-		
-		ai_test_interval = 24
-		ai_test_variance = 0.2
-		
-		ai_check = {
-			always = yes
 		}
 	}
 }
