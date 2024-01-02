@@ -15,7 +15,6 @@ guiTypes = {
 			scale = 0.7
 			pdx_tooltip = "OPEN_INSULT_EXPANDED_DIPLO_ACTIONS_TT"
 			clicksound = click_close
-			shortcut = "shift+i"
 		}
 	}
 	
@@ -45,7 +44,6 @@ guiTypes = {
 			scale = 1.2
 			pdx_tooltip = "CLOSE"
 			clicksound = click_close
-			shortcut = "shift+i"
 		}
 		
 		buttonType = {
@@ -168,7 +166,6 @@ guiTypes = {
 		buttonType = {
 			name = "cancel_button"
 			position = { x = 30 y = 473 }
-			shortcut = "ESCAPE"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonFont = "hoi_16mbs"
 			buttonText = "DIPLOMACY_CANCEL"
@@ -179,7 +176,6 @@ guiTypes = {
 		buttonType = {
 			name = "send_button"
 			position = { x = 374 y = 473 }
-			shortcut = "RETURN"
 			quadTextureSprite = "GFX_button_123x34"
 			buttonFont = "hoi_16mbs"
 			buttonText = "DIPLOMACY_SEND"
@@ -632,13 +628,13 @@ guiTypes = {
 			name = "button_bracketopen"
 			position = { x = -1000 y = -1000 }
 			spriteType = "GFX_mini_close_button"
-			shortcut = "shift+8"
+			shortcut = "shift+9"
 		}
 		buttonType = {
 			name = "button_bracketclose"
 			position = { x = -1000 y = -1000 }
 			spriteType = "GFX_mini_close_button"
-			shortcut = "shift+9"
+			shortcut = "shift+0"
 		}
 		buttonType = {
 			name = "button_delete"
