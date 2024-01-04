@@ -1,7 +1,7 @@
 ﻿l_english:
   
- crt_off:0 "Country Rule Tool: £trigger_no"
- crt_on:0 "Country Rule Tool: £trigger_yes"
+ crt_off: "Country Rule Tool: £trigger_no"
+ crt_on: "Country Rule Tool: £trigger_yes"
   
  CRT_FACTION_CATEGORY: "Faction Rules"
  CRT_WARNING: "§RWarning: Due to a hardcoded bug, the options below each can only be used 2 times per country, then you need to reload this savegame.§!"
@@ -10,7 +10,7 @@
  CRT_PEACE_CATEGORY: "Peace Deals"
 
 
- CRT_UNLOCK_TEMPLATES_TT:0 "§HRemove training restrictions on country and unlocks any basegame locked templates.§!§R\nDue to technical limitations, modded units cannot be automatically unlocked.§!"
+ CRT_UNLOCK_TEMPLATES_TT: "§HRemove training restrictions on country and unlocks any basegame locked templates.§!§R\nDue to technical limitations, modded units cannot be automatically unlocked.§!"
  CRT_TOGGLE_FACTION_CREATION_ON_TT: "§GEnable§! §Hfaction creation for this country§!"
  CRT_TOGGLE_FACTION_CREATION_OFF_TT: "§RDisable§! §Hfaction creation for this country§!"
  CRT_TOGGLE_FACTION_JOINING_ON_TT: "§GEnable§! §Hfaction joining for this country§!"

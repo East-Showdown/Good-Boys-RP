@@ -812,9 +812,6 @@ scripted_gui = {
 							days > 2
 						}
 					}
-					ROOT = {
-						NOT = { check_variable = { last_insult_sent_this_amount_of_days_ago > 0 } }
-					}
 				}
 			}
 		}
