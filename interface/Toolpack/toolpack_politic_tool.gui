@@ -181,13 +181,6 @@ guiTypes = {
 			allwaystransparent = yes
 			scale = 0.6
 		}
-		buttonType = {
-			name = "tpt_tab_switch_button"
-			position = { x = 10000 y = 24500 }
-			shortcut = "shift+x"
-			spriteType = "GFX_tpt_tab_frame_2"
-			scale = 1
-		}
 ### IDEOLOGY ###
 		buttonType = {
 			name = "tpt_add_fascism"

@@ -33,16 +33,6 @@ guiTypes = {
 			format = left
 		}
 		buttonType = {
-			name = "cpt_help_button"
-			position = { x = 449 y = 20 }
-			quadTextureSprite ="GFX_help_button"
-			buttonText = ""
-			buttonFont = "Main_14_black"
-			clicksound = click_ok
-			oversound = ui_menu_over
-			pdx_tooltip = "DST_HELP"
-		}
-		buttonType = {
 			name = "cpt_marker"
 			position = { x = 20 y = 15 }
 			shortcut = "shift+r"

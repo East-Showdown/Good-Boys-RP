@@ -4,10 +4,6 @@
  CPT_ACTIVITY_ON: "Country Puppeting Tool: £trigger_no"
  CPT_ACTIVITY_OFF: "Country Puppeting Tool: £trigger_yes"
 
- cpt.1.t: "Help"
- cpt.1.d: "Confused? Let me run you through the steps necessary to master the Country Puppeting Tool.\n\nThis tool contains two windows: The "Tool" window, which contains the actual tool and the "Gallery" window which shows an overview of all possible autonomy states. Hover over them to take a look at the necessary requirements.\n\nNow, to the tool. As was mentioned before, most autonomy states require certain conditions. To make things less confusing, the only autonomy options that you will see are the ones that are available. So, don't worry if Germany has different options than Japan.\n\nTo use the tool, first click on a state of a country that you want to be puppeted. Use the mark button to mark it and then click on a state of the country that you want to become the overlord. Finally, choose one of the options to set the marked country to that autonomy state.\n\nThe "Free Country" button can either be used to free all marked countries or the country the state of which you have clicked on.\n\n\nIf you are willing to do a good deed and notice any issues (mainly overlapping, no options available or results different from options), please report them in the "Bugs and Problems" section on the workshop.\n\nEither way, have fun using the CPT."
- cpt.1.a: "Alright"
-
  CPT_STATE_INT_PUP: "Integrated Puppet"
  CPT_STATE_PUP: "Puppet"
  CPT_STATE_COL: "Colony"

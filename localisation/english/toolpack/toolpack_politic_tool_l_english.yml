@@ -1,11 +1,9 @@
 ﻿l_english:
  
- TPT_TAB_SWITCHER_TT: "Switch tabs using §gshift + x§!"
  TPT_ACTIVITY_ON: "Politics Tool: £trigger_no"
  TPT_ACTIVITY_OFF: "Politics Tool: £trigger_yes"
  TPT_ACTOR_NAME: "§H[From.Owner.GetName]§!"
  tpt_autotarget_1: "Autotarget: None"
- tpt_autotarget_2: "AT: §G[tpt_autotarget.GetName]§!"
  TPT_CLOSE_WINDOW: "Close"
  
  
