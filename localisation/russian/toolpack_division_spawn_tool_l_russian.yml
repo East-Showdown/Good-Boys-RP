@@ -1,0 +1,37 @@
+﻿l_russian:
+
+ toolpack.3.d: "Confused? Read this quick run through DST B.\n\nFirst, select a state in which you want to spawn the divisions.\n\nNext, you press the "Create Template" button up to three times to create as many different templates.You will see three boxes appear, named T1, T2 and T3 respectively. These boxes stand for one template each, so T1 stands for "Toolpack-Division", T2 for "Toolpack-Division 2" and T3 for "Toolpack-Division 3". The next step is to edit the template of the country which will receive the division. To switch to a different country, use the command "tag [tag of desired country]". You can normally find a list of all tags under "C:/Program Files (x86)/Steam/steamapps/common/Hearts of Iron IV/common/country_tags/00_countries". Use the two green stars to add or subract army experience.\n\nNow you can specify how well equipped and experienced the divisions should be.\n\nThe second to last step is to define which template you want to spawn. To do this, make checks at T1, T2 or T3 or only two or even all of them.\n\nFinally, you can press any of the four buttons below "Spawn Divisions:" to spawn as many divisions as you want. Keep in mind that you cannot spawn custom divisions of your own country in other countries.\n\nPress the "Delete" button at the bottom right after checking the corresponding boxes to delete all units of all custom templates for the selected country.\n\nWhat you cannot do with this tool: \n- Editing templates in one country and spawning the edited templates in another\n- Spawning renamed templates"
+
+ DST_OPEN: "§HВключить 'Инструмент изменения идеологии'§!"
+ DST_CLOSE: "§HВыключить 'Инструмент изменения идеологии'§!"
+ DST_ACTIVITY_ON: "Инструмент дивизий: £trigger_no"
+ DST_ACTIVITY_OFF: "Инструмент дивизий: £trigger_yes"
+ DST_HELP: "Помощь"
+ DST_DELETE: "§HУдалить все дивизии созданные по выбранному шаблону§!"
+ DST_TEMPLATE: "Создать Шаблон"
+
+ DST_ADD_1: "Заспавнить §H1§W дивизию выбранного шаблона в этом регионе."
+ DST_ADD_5: "Заспавнить §H5§W дивизий выбранного шаблона в этом регионе."
+ DST_ADD_10: "Заспавнить §H10§W дивизий выбранного шаблона в этом регионе."
+ 
+ DST_SPAWN_DIVISIONS_TEXT: "Спавн дивизий:"
+ DST_SELECT_TEMPLATES_TEXT: "Выбор шаблона:"
+ 
+ ####
+ 
+ DST_ADD_ARMY_EXPERIENCE: "§HДобавить 50 опыта армии.§W"
+ DST_REMOVE_ARMY_EXPERIENCE: "§HУстановить число опыта армии на 0.§W"
+ DST_INC_EXP: "§HУвеличить опыт дивизии.§W"
+ DST_DEC_EXP: "§HУменьшить опыт дивизии.§W"
+ DST_EXP_TEXT: "Опыт"
+ DST_INC_EQ: "§HУвеличить снаряжение дивизии.§W"
+ DST_DEC_EQ: "§HУменьшить снаряжение дивизии.§W"
+ DST_EQ_TEXT: "Снаряжение"
+ DST_EN_T1: "Включить спавн дивизий §HToolpack-Division§!."
+ DST_DE_T1: "Выключить спавн дивизий §HToolpack-Division§!."
+ DST_EN_T2: "Включить спавн дивизий §HToolpack-Division 2§!."
+ DST_DE_T2: "Выключить спавн дивизий §HToolpack-Division 2§!."
+ DST_EN_T3: "Включить спавн дивизий §HToolpack-Division 3§!."
+ DST_DE_T3: "Выключить спавн дивизий §HToolpack-Division 3§!."
+ 
+ DST_STATE_COUNTRY_NAME: "§G[This.GetName]§! в §Y[From.Owner.GetNameDef]§!"

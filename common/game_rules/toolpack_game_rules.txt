@@ -1,0 +1,46 @@
+horst_host_country = {
+	name = "SELECT_HOST"
+	group = "HOST_RULES"
+	icon = "GFX_volunteers"
+	default = {
+		name = GER
+		text = "GERMANY_SH"
+		desc = ""
+	}
+
+	option = {
+		name = ITA
+		text = "ITALY_SH"
+		desc = ""
+	}
+	option = {
+		name = ENG
+		text = "BRITAIN_SH"
+		desc = ""
+	}
+	option = {
+		name = USA
+		text = "USA_SH"
+		desc = ""
+	}
+	option = {
+		name = JAP
+		text = "JAPAN_SH"
+		desc = ""
+	}
+	option = {
+		name = SOV
+		text = "USSR_SH"
+		desc = ""
+	}
+	option = {
+		name = FRA
+		text = "FRANCE_SH"
+		desc = ""
+	}
+	option = {
+		name = ALL
+		text = "ALL_SH"
+		desc = "ALL_DESC_SH"
+	}
+}
